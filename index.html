@@ -4,16 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Map</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9ff;
+            text-align: center;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #ff6347; /* Tomato red color */
+            font-size: 3em;
+            margin-top: 40px;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin: 20px auto;
+            max-width: 800px;
+            color: #555;
+        }
+        h2 {
+            color: #ff1493;
+            font-size: 2em;
+            margin-top: 30px;
+            text-decoration: underline;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        li {
+            background-color: #ffebcd;
+            border-radius: 15px;
+            margin: 15px 0;
+            padding: 15px;
+            font-size: 1.2em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        li a {
+            text-decoration: none;
+            color: #ff6347;
+        }
+        li:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        li a:hover {
+            color: #ff1493;
+        }
+        .cute-icon {
+            font-size: 1.5em;
+            margin-right: 10px;
+        }
+    </style>
 </head>
 <body>
     <h1>Welcome to My Interactive Map</h1>
-    <p>Click on a location to learn more.</p>
+    <p>Click on a location to learn more about my life journey and experiences.</p>
     
     <h2>Locations</h2>
     <ul>
-        <li><a href="homehk.html">Home in Hong Kong</a></li>
-        <li><a href="whampoa.html">Whampoa</a></li>
-        <li><a href="isf.html">Middle School (ISF)</a></li>
+        <li><a href="homehk.html"><span class="cute-icon">🏠</span>Home in Hong Kong</a></li>
+        <li><a href="whampoa.html"><span class="cute-icon">🏙️</span>Whampoa</a></li>
+        <li><a href="isf.html"><span class="cute-icon">🏫</span>Middle School (ISF)</a></li>
+        <li><a href="redshoe.html"><span class="cute-icon">👠</span>Red Shoe Dance Memories</a></li> <!-- Added Red Shoe Link -->
     </ul>
 </body>
 </html>
