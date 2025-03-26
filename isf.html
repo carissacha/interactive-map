@@ -4,6 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Middle School Memories</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            text-align: center;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #ff69b4; /* Pink color */
+            font-size: 2.5em;
+            margin-top: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin: 20px auto;
+            max-width: 800px;
+            text-align: center;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .image-container img {
+            width: 30%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #ff1493;
+            font-size: 2em;
+            margin-top: 30px;
+        }
+        .memory-text {
+            font-size: 1.1em;
+            color: #555;
+            margin-top: 10px;
+            margin-bottom: 40px;
+        }
+    </style>
 </head>
 <body>
     <h1>Middle School – A Place of Growth and Friendship</h1>
@@ -13,13 +58,19 @@
 
     <!-- Image Section -->
     <h2>Memories from ISF</h2>
-    <img src="image./isf1.JPG" alt="Class Photo on a Field Trip" width="600">
-    <p>This is my middle school campus, where I spent so much of my time growing up.</p>
-
-    <img src="image./isf2.JPG" alt="Before Graduation Celebration" width="600">
-    <p>Playing on the soccer team was one of my best memories at ISF.</p>
-
-    <img src="image./isf3.JPG" alt="Graduation with my BFF" width="600">
-    <p>The golf team was where I truly grew as an athlete and competitor.</p>
+    <div class="image-container">
+        <div>
+            <img src="image./isf1.JPG" alt="Class Photo on a Field Trip">
+            <p class="memory-text">This is my middle school campus, where I spent so much of my time growing up.</p>
+        </div>
+        <div>
+            <img src="image./isf2.JPG" alt="Before Graduation Celebration">
+            <p class="memory-text">Playing on the soccer team was one of my best memories at ISF.</p>
+        </div>
+        <div>
+            <img src="image./isf3.JPG" alt="Graduation with my BFF">
+            <p class="memory-text">The golf team was where I truly grew as an athlete and competitor.</p>
+        </div>
+    </div>
 </body>
 </html>
